@@ -28,13 +28,6 @@ It provides options to add, search, update, and delete student information, alon
 -----------------------------------------------------
 Enter Choice :
 
-## How to Run
-1. Clone the repository:
-   git clone https://github.com/ZuAdham/Student_Management_System.git
-2. Compile the code:
-   gcc student_management.c -o sms
-3. Run the program:
-   ./sms
 
 ## Project Structure
 Student_Management_System/
