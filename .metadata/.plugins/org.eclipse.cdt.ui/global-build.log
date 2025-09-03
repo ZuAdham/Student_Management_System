@@ -1,0 +1,811 @@
+19:34:10 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+19:37:01 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:37:05 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+19:37:23 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+19:38:59 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+19:52:38 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+19:54:08 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+20:15:20 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+20:15:37 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+21:37:56 **** Rebuild of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+21:38:40 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:38:40 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+22:13:16 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'main':
+..\src\C project.c:137:24: error: 'NewStudent' undeclared (first use in this function); did you mean 'addStudent'?
+       if (scanf("%f", &NewStudent.gpa) == 1 && NewStudent.gpa >= 0.0 && NewStudent.gpa <= 4.0) {
+                        ^~~~~~~~~~
+                        addStudent
+..\src\C project.c:137:24: note: each undeclared identifier is reported only once for each function it appears in
+..\src\C project.c:154:3: error: case label not within a switch statement
+   case 2:
+   ^~~~
+..\src\C project.c:162:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:167:3: error: case label not within a switch statement
+   case 3:
+   ^~~~
+..\src\C project.c:175:5: error: break statement not within loop or switch
+     break;
+     ^~~~~
+..\src\C project.c:181:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:186:3: error: case label not within a switch statement
+   case 4:
+   ^~~~
+..\src\C project.c:194:5: error: break statement not within loop or switch
+     break;
+     ^~~~~
+..\src\C project.c:200:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:205:3: error: case label not within a switch statement
+   case 5:
+   ^~~~
+..\src\C project.c:219:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:223:3: error: case label not within a switch statement
+   case 6:
+   ^~~~
+..\src\C project.c:230:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:234:3: error: case label not within a switch statement
+   case 7:
+   ^~~~
+..\src\C project.c:241:5: error: break statement not within loop or switch
+     break;
+     ^~~~~
+..\src\C project.c:247:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:251:3: error: case label not within a switch statement
+   case 8:
+   ^~~~
+..\src\C project.c:256:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:257:3: error: 'default' label not within a switch statement
+   default:
+   ^~~~~~~
+..\src\C project.c: At top level:
+..\src\C project.c:260:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+..\src\C project.c:261:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+22:13:51 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'main':
+..\src\C project.c:137:24: error: 'NewStudent' undeclared (first use in this function); did you mean 'addStudent'?
+       if (scanf("%f", &NewStudent.gpa) == 1 && NewStudent.gpa >= 0.0 && NewStudent.gpa <= 4.0) {
+                        ^~~~~~~~~~
+                        addStudent
+..\src\C project.c:137:24: note: each undeclared identifier is reported only once for each function it appears in
+..\src\C project.c:154:3: error: case label not within a switch statement
+   case 2:
+   ^~~~
+..\src\C project.c:162:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:167:3: error: case label not within a switch statement
+   case 3:
+   ^~~~
+..\src\C project.c:175:5: error: break statement not within loop or switch
+     break;
+     ^~~~~
+..\src\C project.c:181:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:186:3: error: case label not within a switch statement
+   case 4:
+   ^~~~
+..\src\C project.c:194:5: error: break statement not within loop or switch
+     break;
+     ^~~~~
+..\src\C project.c:200:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:205:3: error: case label not within a switch statement
+   case 5:
+   ^~~~
+..\src\C project.c:219:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:223:3: error: case label not within a switch statement
+   case 6:
+   ^~~~
+..\src\C project.c:230:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:234:3: error: case label not within a switch statement
+   case 7:
+   ^~~~
+..\src\C project.c:241:5: error: break statement not within loop or switch
+     break;
+     ^~~~~
+..\src\C project.c:247:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:251:3: error: case label not within a switch statement
+   case 8:
+   ^~~~
+..\src\C project.c:256:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:257:3: error: 'default' label not within a switch statement
+   default:
+   ^~~~~~~
+..\src\C project.c: At top level:
+..\src\C project.c:260:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+..\src\C project.c:261:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+22:14:10 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'main':
+..\src\C project.c:137:24: error: 'NewStudent' undeclared (first use in this function); did you mean 'addStudent'?
+       if (scanf("%f", &NewStudent.gpa) == 1 && NewStudent.gpa >= 0.0 && NewStudent.gpa <= 4.0) {
+                        ^~~~~~~~~~
+                        addStudent
+..\src\C project.c:137:24: note: each undeclared identifier is reported only once for each function it appears in
+..\src\C project.c:154:3: error: case label not within a switch statement
+   case 2:
+   ^~~~
+..\src\C project.c:162:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:167:3: error: case label not within a switch statement
+   case 3:
+   ^~~~
+..\src\C project.c:175:5: error: break statement not within loop or switch
+     break;
+     ^~~~~
+..\src\C project.c:181:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:186:3: error: case label not within a switch statement
+   case 4:
+   ^~~~
+..\src\C project.c:194:5: error: break statement not within loop or switch
+     break;
+     ^~~~~
+..\src\C project.c:200:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:205:3: error: case label not within a switch statement
+   case 5:
+   ^~~~
+..\src\C project.c:219:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:223:3: error: case label not within a switch statement
+   case 6:
+   ^~~~
+..\src\C project.c:230:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:234:3: error: case label not within a switch statement
+   case 7:
+   ^~~~
+..\src\C project.c:241:5: error: break statement not within loop or switch
+     break;
+     ^~~~~
+..\src\C project.c:247:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:251:3: error: case label not within a switch statement
+   case 8:
+   ^~~~
+..\src\C project.c:256:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\C project.c:257:3: error: 'default' label not within a switch statement
+   default:
+   ^~~~~~~
+..\src\C project.c: At top level:
+..\src\C project.c:260:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+..\src\C project.c:261:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+22:15:31 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+22:16:48 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+22:18:26 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+22:18:55 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+22:20:12 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+22:21:19 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:21:20 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+22:40:20 **** Rebuild of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+22:42:36 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+14:08:54 **** Rebuild of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+14:14:58 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+14:15:49 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+14:16:56 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+14:19:30 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+14:20:19 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+14:23:28 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'main':
+..\src\C project.c:142:22: error: 'NewStudent' undeclared (first use in this function); did you mean 'addStudent'?
+     if (scanf("%d", &NewStudent.age) == 1 && NewStudent.age > 0) {
+                      ^~~~~~~~~~
+                      addStudent
+..\src\C project.c:142:22: note: each undeclared identifier is reported only once for each function it appears in
+..\src\C project.c:168:3: error: case label not within a switch statement
+   case 2:
+   ^~~~
+..\src\C project.c:181:3: error: case label not within a switch statement
+   case 3:
+   ^~~~
+..\src\C project.c:200:3: error: case label not within a switch statement
+   case 4:
+   ^~~~
+..\src\C project.c:219:3: error: case label not within a switch statement
+   case 5:
+   ^~~~
+..\src\C project.c:237:3: error: case label not within a switch statement
+   case 6:
+   ^~~~
+..\src\C project.c:248:3: error: case label not within a switch statement
+   case 7:
+   ^~~~
+..\src\C project.c:265:3: error: case label not within a switch statement
+   case 8:
+   ^~~~
+..\src\C project.c:271:3: error: 'default' label not within a switch statement
+   default:
+   ^~~~~~~
+..\src\C project.c: At top level:
+..\src\C project.c:275:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+14:23:29 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'main':
+..\src\C project.c:142:22: error: 'NewStudent' undeclared (first use in this function); did you mean 'addStudent'?
+     if (scanf("%d", &NewStudent.age) == 1 && NewStudent.age > 0) {
+                      ^~~~~~~~~~
+                      addStudent
+..\src\C project.c:142:22: note: each undeclared identifier is reported only once for each function it appears in
+..\src\C project.c:168:3: error: case label not within a switch statement
+   case 2:
+   ^~~~
+..\src\C project.c:181:3: error: case label not within a switch statement
+   case 3:
+   ^~~~
+..\src\C project.c:200:3: error: case label not within a switch statement
+   case 4:
+   ^~~~
+..\src\C project.c:219:3: error: case label not within a switch statement
+   case 5:
+   ^~~~
+..\src\C project.c:237:3: error: case label not within a switch statement
+   case 6:
+   ^~~~
+..\src\C project.c:248:3: error: case label not within a switch statement
+   case 7:
+   ^~~~
+..\src\C project.c:265:3: error: case label not within a switch statement
+   case 8:
+   ^~~~
+..\src\C project.c:271:3: error: 'default' label not within a switch statement
+   default:
+   ^~~~~~~
+..\src\C project.c: At top level:
+..\src\C project.c:275:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+14:23:46 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+14:26:20 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+14:27:15 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+14:30:05 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+14:30:58 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:31:18 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:31:19 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:31:25 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+14:31:37 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+15:19:00 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+15:22:08 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'addStudent':
+..\src\C project.c:515:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+..\src\C project.c:500:6: warning: 'ContinueMoreTask' defined but not used [-Wunused-function]
+ void ContinueMoreTask(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:463:6: warning: 'deleteStudent' defined but not used [-Wunused-function]
+ void deleteStudent(const int id)
+      ^~~~~~~~~~~~~
+..\src\C project.c:439:6: warning: 'searchHighestGPA' defined but not used [-Wunused-function]
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:416:7: warning: 'calculateAverageGPA' defined but not used [-Wunused-function]
+ float calculateAverageGPA(void)
+       ^~~~~~~~~~~~~~~~~~~
+..\src\C project.c:373:6: warning: 'updateStudent' defined but not used [-Wunused-function]
+ void updateStudent(const int id)
+      ^~~~~~~~~~~~~
+..\src\C project.c:351:6: warning: 'searchStudentByID' defined but not used [-Wunused-function]
+ void searchStudentByID(const int id)
+      ^~~~~~~~~~~~~~~~~
+..\src\C project.c:334:6: warning: 'displayStudents' defined but not used [-Wunused-function]
+ void displayStudents(void)
+      ^~~~~~~~~~~~~~~
+15:22:14 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:22:38 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:22:38 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+15:23:24 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:23:24 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:23:24 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:23:25 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+22:59:10 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c:469:6: error: redefinition of 'searchHighestGPA'
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:359:6: note: previous definition of 'searchHighestGPA' was here
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+23:00:38 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c:471:6: error: redefinition of 'searchHighestGPA'
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:359:6: note: previous definition of 'searchHighestGPA' was here
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+23:00:39 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c:471:6: error: redefinition of 'searchHighestGPA'
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:359:6: note: previous definition of 'searchHighestGPA' was here
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+23:02:28 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c:464:6: error: redefinition of 'searchHighestGPA'
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:359:6: note: previous definition of 'searchHighestGPA' was here
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+23:02:29 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c:464:6: error: redefinition of 'searchHighestGPA'
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:359:6: note: previous definition of 'searchHighestGPA' was here
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+23:05:43 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c:464:6: error: redefinition of 'searchHighestGPA'
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:359:6: note: previous definition of 'searchHighestGPA' was here
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+23:05:44 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c:464:6: error: redefinition of 'searchHighestGPA'
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:359:6: note: previous definition of 'searchHighestGPA' was here
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+23:06:49 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c:464:6: error: redefinition of 'searchHighestGPA'
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+..\src\C project.c:359:6: note: previous definition of 'searchHighestGPA' was here
+ void searchHighestGPA(void)
+      ^~~~~~~~~~~~~~~~
+23:07:29 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:07:48 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+23:14:25 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'ContinueMoreTask':
+..\src\C project.c:549:4: warning: implicit declaration of function 'freeMemory' [-Wimplicit-function-declaration]
+    freeMemory(); // Free allocated memory
+    ^~~~~~~~~~
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:15:00 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:16:12 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'main':
+..\src\C project.c:137:20: error: 'ptr' undeclared (first use in this function); did you mean 'putw'?
+    if (!isIDUnique(ptr->id))
+                    ^~~
+                    putw
+..\src\C project.c:137:20: note: each undeclared identifier is reported only once for each function it appears in
+..\src\C project.c:140:8: warning: 'return' with no value, in function returning non-void
+        return;
+        ^~~~~~
+..\src\C project.c:93:5: note: declared here
+ int main(void)
+     ^~~~
+23:16:42 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'main':
+..\src\C project.c:137:20: error: 'ptr' undeclared (first use in this function); did you mean 'putw'?
+    if (!isIDUnique(ptr->id))
+                    ^~~
+                    putw
+..\src\C project.c:137:20: note: each undeclared identifier is reported only once for each function it appears in
+23:17:42 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'main':
+..\src\C project.c:137:20: error: 'ptr' undeclared (first use in this function); did you mean 'putw'?
+    if (!isIDUnique(ptr->id))
+                    ^~~
+                    putw
+..\src\C project.c:137:20: note: each undeclared identifier is reported only once for each function it appears in
+23:17:49 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:18:51 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:18:56 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+23:30:08 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+23:31:54 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+23:34:06 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c: In function 'ContinueMoreTask':
+..\src\C project.c:562:22: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+             choice = tolower(choice);  // Convert input to lowercase
+                      ^~~~~~~
+gcc -o "C project.exe" "src\\C project.o" 
+23:34:48 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+23:36:43 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+..\src\C project.c:554:1: error: expected identifier or '(' before '/' token
+ /
+ ^
+23:36:54 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:36:56 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+23:40:19 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+23:40:46 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+23:42:09 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+23:43:15 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+23:45:01 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:45:01 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+16:12:14 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+16:14:12 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+16:26:45 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file C project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:26:46 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+17:45:14 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+21:21:31 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+21:22:27 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+21:28:01 **** Incremental Build of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+12:24:25 **** Rebuild of configuration Debug for project C project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\C project.o" "..\\src\\C project.c" 
+gcc -o "C project.exe" "src\\C project.o" 
+Info: Nothing to build for C project
+Info: Nothing to build for C project
+Info: Nothing to build for C project

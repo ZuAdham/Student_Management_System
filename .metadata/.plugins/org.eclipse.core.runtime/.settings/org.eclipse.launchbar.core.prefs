@@ -1,0 +1,9 @@
+LaunchTargetManager/configs/C\ project.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/ss.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:ss.exe,org.eclipse.launchbar.core.descriptorType.default\:C project.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:C\ project.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:C\ project.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
