@@ -37,30 +37,3 @@ Student_Management_System/
 
 ## Author
 ZuAdham – Embedded Systems & IoT Enthusiast
-
------------------------------------------------------
-.gitignore
------------------------------------------------------
-
-# Compiled source
-*.exe
-*.o
-*.out
-
-# Debug / build files
-*.dSYM/
-*.obj
-*.dll
-*.so
-*.a
-*.lib
-
-# Logs / temp
-*.log
-*.tmp
-*.bak
-
-# IDE / Editor files
-.vscode/
-.idea/
-*.swp
